@@ -309,7 +309,8 @@ export default function AdvertorialPage() {
                   },
                   {
                     title: "Planos de saúde: reajuste médio autorizado é de 9,8% em 2025",
-                    image: "https://www.conveniomedicoempresarial.com.br/wp-content/uploads/2023/03/descubra-como-evitar-o-reajuste-do-plano-de-saude-empresarial.jpg",
+                    image:
+                      "https://www.conveniomedicoempresarial.com.br/wp-content/uploads/2023/03/descubra-como-evitar-o-reajuste-do-plano-de-saude-empresarial.jpg",
                     alt: "Gráfico mostrando aumento nos preços dos planos de saúde",
                   },
                   {
@@ -387,9 +388,7 @@ export default function AdvertorialPage() {
         <div className="container mx-auto px-4">
           <div className="text-center text-xs sm:text-sm text-gray-500">
             <p className="mb-2">© 2000-2025. Todos os direitos reservados.</p>
-            <p className="mb-3 sm:mb-4 text-xs">
-              Este é um conteúdo publicitário e não representa a opinião do portal G1 ou da Globo.
-            </p>
+            <p className="mb-3 sm:mb-4 text-xs"></p>
             <div className="flex justify-center space-x-4">
               <Link href="#" className="text-xs hover:text-gray-700">
                 política de privacidade
@@ -404,15 +403,6 @@ export default function AdvertorialPage() {
           </div>
         </div>
       </footer>
-
-      {/* Floating CTA for mobile */}
-      <div className="fixed bottom-0 left-0 right-0 bg-white border-t p-3 shadow-lg lg:hidden z-10">
-        <a href="https://pay.kiwify.com.br/G5AfJYf" target="_blank" rel="noopener noreferrer" className="block w-full">
-          <Button className="w-full bg-red-600 hover:bg-red-700 text-white py-3">
-            QUERO GARANTIR MEU E-BOOK AGORA
-          </Button>
-        </a>
-      </div>
     </div>
   )
 }
